@@ -2,12 +2,12 @@ package ExerciciosRepeticao;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicio03 {
 
 	public static void main(String[] args) {
 		
-		int a = 0
-		int b = 0
+		int a = 0;
+		int b = 0;
 		double divisao = 0;
 		
 		Scanner tecla = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Exercicio01 {
 		}
 		
 		divisao = a/b;
-		System.out.println("A divisao do primeiro valor pelo segundo eh: " + String.format("%5.2d", divisao));
+		System.out.println("A divisao do primeiro valor pelo segundo eh: " + String.format("%5.2f", divisao));
 
 	}
 

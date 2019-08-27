@@ -2,12 +2,12 @@ package ExerciciosRepeticao;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicio17 {
 
 	public static void main(String[] args) {
 		
 		int n = 0;
-		int fatorial = 0;
+		double fatorial = 1;
 		
 		Scanner tecla = new Scanner(System.in);
 		
@@ -19,7 +19,7 @@ public class Exercicio01 {
 			System.out.println("Fatorial de " + n + " eh: " + 1);
 
 		} else {
-			for (int i = 1; i >= n; i++){
+			for (int i = 1; i <= n; i++){
 				fatorial = fatorial * i;
 			}
 			

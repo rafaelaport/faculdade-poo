@@ -19,11 +19,10 @@ public class Exercicio01 {
 			System.out.println("Digite outro valor inteiro: ");
 			b = tecla.nextInt();
 		} while (b == 0);
-		// do while não funciona
 		
 		divisao = a/b;
 		
-		System.out.println("A divisao do primeiro valor pelo segundo eh: " + String.format("%5.2d", divisao));
+		System.out.println("A divisao do primeiro valor pelo segundo eh: " + String.format("%5.2f", divisao));
 
 	}
 

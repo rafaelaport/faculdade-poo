@@ -2,7 +2,7 @@ package ExerciciosRepeticao;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicio09 {
 
 	public static void main(String[] args) {
 		
@@ -25,17 +25,17 @@ public class Exercicio01 {
 			
 			System.out.println("A media do aluno eh: " + String.format("%3.1f", media));
 			
-			if (media >= 6.0){
+			if (media >= 6){
 				
-				cont = cont++;
+				cont++;
 			}
 			
 			System.out.println("Calcular a media de outro aluno? 1.Sim 2.Nao ");
 			resp = tecla.nextInt();
 			
-		} while(!= 1)
+		} while(resp == 1);
 			
-		System.out.println("Quantidade de alunos aprovados: ", cont);
+		System.out.println("Quantidade de alunos aprovados: " + cont);
 
 	}
 
